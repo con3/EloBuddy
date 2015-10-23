@@ -55,16 +55,20 @@
   <ItemGroup>
     <Compile Include="Champions\Ashe\Config.cs" />
     <Compile Include="Champions\Ashe\ModeManager.cs" />
+    <Compile Include="Champions\Ashe\Modes\Combo.cs" />
+    <Compile Include="Champions\Ashe\Modes\Harass.cs" />
+    <Compile Include="Champions\Ashe\Modes\LaneClear.cs" />
+    <Compile Include="Champions\Ashe\Modes\ModeBase.cs" />
+    <Compile Include="Champions\Ashe\Modes\PermaActive.cs" />
     <Compile Include="Champions\Ashe\SpellManager.cs" />
+    <Compile Include="Con3AIO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Champions\Ashe\Modes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
